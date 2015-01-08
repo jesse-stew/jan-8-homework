@@ -1,0 +1,48 @@
+header {
+	height: 191px;
+	background-color: #3B2C8A;
+	color: white;
+}
+
+.fixed-button {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 44px;
+	width: 52px;
+	background-color: #8A2C7B;
+	color: white;
+}
+
+.main {
+	padding: 0 32px;
+}
+
+.text-area {
+	color: white;
+	background-color: #2C7B8A;
+	
+}
+
+.text-area h2 {
+	margin-top: 50px
+}
+
+.text-area.first-text-area {
+	height: 162px;
+}
+
+.text-area.second-text-area {
+	height: 295px;
+	margin-bottom: 16px;
+}
+
+.text-area.third-text-area {
+	height: 293px;
+	margin-bottom: 50px;
+}
+
+.photo-area img {
+	display: inline-block;
+	width: 25%;
+}
