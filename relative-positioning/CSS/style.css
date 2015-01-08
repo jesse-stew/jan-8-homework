@@ -1,0 +1,14 @@
+div{
+	background-color: #84BCE0;
+	height: 150px;
+	width: 150px;
+}
+
+.relative {
+	background-color: #E0A884;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	bottom: 25px;
+	left: 10px;
+}
