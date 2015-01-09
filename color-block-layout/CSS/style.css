@@ -23,7 +23,7 @@ header {
 }
 
 .medium-menu {
-	display: none;
+	left: -150px;
 }
 
 /*main body*/
@@ -66,7 +66,6 @@ header {
 @media (min-width: 768px) {
 
 .medium-menu {
-	display: block;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -74,12 +73,9 @@ header {
 	color: white;
 	width: 150px;
 	height: 100%;
-	/*transform-origin: 0, 50%;*/
 	transition-property: all;
-	transition-duration: 0.5s;
+	transition-duration: 0.2s;
 	transition-timing-function: ease-out;
-	/*margin-left: -150px;*/
-/*	position-left: 150px; */
 }	
 
 .fixed-button {
@@ -91,11 +87,17 @@ header {
 	margin-left: 150px;
 }
 
+}
 
 
+/*** CSS for larger size devices, ≥992px***/
 
+@media (min-width: 992px) {
 
-
-
+	.main {
+		max-width: 800px;
+		margin: 0 auto 50px auto;
+	}
 
 }
+
