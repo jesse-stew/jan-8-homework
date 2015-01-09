@@ -1,3 +1,6 @@
+/***CSS for small screens, default***/
+
+/*heading area*/
 header {
 	height: 191px;
 	background-color: #3B2C8A;
@@ -14,6 +17,16 @@ header {
 	color: white;
 }
 
+.fixed-button > span {
+	padding-left: 12px;
+	padding-top: 6px;
+}
+
+.medium-menu {
+	display: none;
+}
+
+/*main body*/
 .main {
 	padding: 0 32px;
 }
@@ -45,4 +58,44 @@ header {
 .photo-area img {
 	display: inline-block;
 	width: 25%;
+}
+
+
+/*** CSS for medium size devices, ≥768px***/
+
+@media (min-width: 768px) {
+
+.medium-menu {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #8A2C7B;
+	color: white;
+	width: 150px;
+	height: 100%;
+	/*transform-origin: 0, 50%;*/
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+	/*margin-left: -150px;*/
+/*	position-left: 150px; */
+}	
+
+.fixed-button {
+	display: none;
+}
+
+.main, .top {
+	display: block;
+	margin-left: 150px;
+}
+
+
+
+
+
+
+
+
 }
