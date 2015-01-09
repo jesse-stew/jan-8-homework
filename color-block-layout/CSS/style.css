@@ -26,6 +26,10 @@ header {
 	left: -150px;
 }
 
+.medium-menu > p {
+	visibility: hidden;
+}
+
 /*main body*/
 .main {
 	padding: 0 32px;
@@ -78,13 +82,20 @@ header {
 	transition-timing-function: ease-out;
 }	
 
+.medium-menu > p {
+	visibility: visible;
+}
+
 .fixed-button {
 	display: none;
 }
 
-.main, .top {
-	display: block;
-	margin-left: 150px;
+.top {
+	padding-left: 150px;
+}
+
+.main {
+	padding-left: 182px;
 }
 
 }
@@ -96,7 +107,7 @@ header {
 
 	.main {
 		max-width: 800px;
-		margin: 0 auto 50px auto;
+		margin: 0 auto;
 	}
 
 }
